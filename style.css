@@ -1,0 +1,108 @@
+
+body{
+    background-image: url(imagens/pexels-moose-photos-1037992.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.container{
+    
+    padding: 0;
+    width: 700px;
+    height: 500px;
+    display: grid;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container div{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+/*Parte de cima da grid*/
+div .encima{
+    height: 150px;
+    margin-bottom: auto;
+    margin-top: 50px;
+    background-color: rgb(251, 251, 251);
+    font-size: .9rem;
+}
+
+.encima >h1 {
+    margin-top: 1px;
+    color: rgb(0, 162, 216);
+    
+}
+
+.encima > .linha2{
+    color: #0bf22a;
+}
+
+.encima > .linha3{
+    color: rgb(207, 207, 207);
+}
+.encima > .linha4{
+    color: rgb(207, 207, 207);
+}
+/**/
+
+/*Esquerda da grid*/
+ div .esquerda{
+    padding: 0;
+    height: 310px;
+    width: 350px;
+    text-align: center;
+    margin-right: auto; 
+    background-color: #029CA1;
+    color: white;
+}
+
+.esquerda > .linha1{
+    margin-top: 50px;
+    font-size: 15pt;
+}
+.esquerda > .linha2{
+    margin-right: 70px;
+    font-size: 15pt;
+}
+.esquerda > .linha3{
+    margin-left: 10px;
+    font-size: 15pt;
+}
+
+input{
+    background-color: #0bf22a;
+    color: rgb(224, 224, 224);
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+input:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .3s;
+}
+/**/
+
+/*Direita da grid*/
+div .direita{
+    padding: 0;
+    height: 310px;
+    width: 350px;
+    text-align: center;
+    margin-top: -310px;
+    margin-left: auto;
+    background-color: #26E8ED;
+    color: rgb(220, 219, 219);
+}
+
+.direita > h1 > p{
+    align-items: center;
+    font-size: 15pt;
+}
+/**/
